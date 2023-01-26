@@ -27,7 +27,7 @@ void loop() {
 
   //シリアル出力
   SERIAL.print(pressure*10, 1); 
-  SERIAL.println("  hPa");
+  //SERIAL.println("  hPa");
 
   //LCD出力
   lcd.setCursor(0, 0);
