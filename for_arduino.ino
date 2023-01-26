@@ -26,7 +26,7 @@ void loop() {
   pressure = (rawValue - offset) * 700.0 / (fullScale - offset); // pressure conversion
 
   //シリアル出力
-  SERIAL.print(pressure*10, 1); 
+  SERIAL.println(pressure*10, 1); 
   //SERIAL.println("  hPa");
 
   //LCD出力
